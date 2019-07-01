@@ -16,7 +16,7 @@ from utils import *
 
 path = Path('weights_TRAC/')
 utility_path = Path('util_files')
-voc = np.load(PATH/'bact_vocab.npy')
+voc = np.load(path/'bact_vocab.npy')
 model_vocab = GenomicVocab(voc)
 
 TOTAL_CLASSES = 16
