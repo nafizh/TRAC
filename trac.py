@@ -8,15 +8,9 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import FeatureLocation, CompoundLocation
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import StratifiedKFold
+
 import pandas as pd
 import numpy as np
-from sklearn.utils import class_weight
-
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.utils import to_categorical
 
 from utils import *
 
