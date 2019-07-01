@@ -40,9 +40,25 @@ $ pip install -r requirements.txt
 ```
 
 Next, you need to download the neural network weights with by clicking on this 
-[link](https://www.dropbox.com/sh/4qztwin2zkehmz0/AAB71w2o-vxKBGNRi709Cx-6a?dl=0). Then extract the zip file.
-Make sure to move the weights_TRAC folder inside the TRAC folder.
+[link](https://www.dropbox.com/sh/4qztwin2zkehmz0/AAB71w2o-vxKBGNRi709Cx-6a?dl=0). 
 
+Create a weights folder inside the TRAC folder.
+
+```
+$ mkdir weights_TRAC
+```
+
+Move the downloaded zip folder to the newly created folder.
+
+```
+$ mv ~/Downloads/weights_TRAC.zip weights_TRAC/
+```
+
+Unzip the folder.
+
+```
+$ unzip weights_TRAC/weights_TRAC.zip
+```
 
 Now, you can run TRAC against any fasta file with the following commmand
 
