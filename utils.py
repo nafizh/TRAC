@@ -7,8 +7,7 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import FeatureLocation, CompoundLocation
-import networkx as nx
-import seaborn as sns
+
 
 def process_fasta(fname, c1, c2, filter_txt=None):
     genome = SeqIO.parse(fname, 'fasta')
