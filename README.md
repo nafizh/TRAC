@@ -57,7 +57,9 @@ $ mv ~/Downloads/weights_TRAC.zip weights_TRAC/
 Unzip the folder.
 
 ```
-$ unzip weights_TRAC/weights_TRAC.zip
+$ cd weights_TRAC
+$ unzip weights_TRAC.zip
+$ cd ..
 ```
 
 Now, you can run TRAC against any fasta file with the following commmand
