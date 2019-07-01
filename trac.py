@@ -20,10 +20,9 @@ from keras.utils import to_categorical
 
 from utils import *
 
-path = Path('uniref50/')
-LM_PATH=Path('uniref50/lm/')
-
-voc = np.load(LM_PATH/'tmp'/'bact_vocab.npy')
+path = Path('weights_TRAC/')
+utility_path = Path('util_files')
+voc = np.load(PATH/'bact_vocab.npy')
 model_vocab = GenomicVocab(voc)
 
 TOTAL_CLASSES = 16
@@ -48,7 +47,7 @@ def load_model_encoder():
     """
     Loads the pretrained and finetuned encoder
     """
-    classification_df = pd.read_csv('coala_transfer_learning_ml_set_cd_hit_0.7_fold_number_1_of_10.csv')
+    classification_df = pd.read_csv(utility_path/'coala_transfer_learning_ml_set_cd_hit_0.7_fold_number_1_of_10.csv')
     train_df = classification_df[classification_df.set == 'train']
     valid_df = classification_df[classification_df.set == 'test']
     tok = Tokenizer(GenomicTokenizer, n_cpus=1, pre_rules=[], post_rules=[], 
