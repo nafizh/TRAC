@@ -1,7 +1,7 @@
 # TRAC
 **TR**ansfer Learning for **A**ntibiotic Resistance Gene **C**lassification (TRAC) is a neural network based method to 
 predict antibiotic resistance genes. Unlike traditional alignment based approaches such as BLAST or HMMER, TRAC uses an
-alignment free approach. We show that performance of TRAC is better than the alignment based approaches. 
+alignment free approach. We show in our upcoming paper that performance of TRAC is better than the alignment based approaches. 
 
 #### Installation
 
