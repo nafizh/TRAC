@@ -5,7 +5,8 @@ alignment free approach. We show in our upcoming paper that performance of TRAC 
 
 #### Installation
 
-Installation of TRAC requires installation of several packages which you can do by the following steps.
+Installation of TRAC requires installation of several packages which you can do by the following steps. First, make sure
+you have python 3.6. This installation has only been tested for the 3.6 version.
 
 First, download this repository. Then run the following commands
 
