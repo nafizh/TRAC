@@ -33,7 +33,7 @@ Activate the newly created virtual environment.
 $ source trac_software/bin/activate
 ```
 
-Now, install the necessary softwares to run NeuBI with
+Now, install the necessary softwares to run TRAC with
 
 ```
 $ pip install -r requirements.txt
