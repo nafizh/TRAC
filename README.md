@@ -5,7 +5,7 @@ alignment free approach. We show in our upcoming paper that performance of TRAC 
 
 
 ![](trac.gif)
-
+[See as a video](https://terminalizer.com/view/017e67b82146)
 
 #### Installation
 
