@@ -3,6 +3,10 @@
 predict antibiotic resistance genes. Unlike traditional alignment based approaches such as BLAST or HMMER, TRAC uses an
 alignment free approach. We show in our upcoming paper that performance of TRAC is better than the alignment based approaches. 
 
+
+![](trac.gif)
+
+
 #### Installation
 
 Installation of TRAC requires installation of several packages which you can do by the following steps. First, make sure
