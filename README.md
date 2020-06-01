@@ -44,7 +44,7 @@ $ pip install -r requirements.txt
 ```
 
 Next, you need to download the neural network weights with by clicking on this 
-[link](https://www.dropbox.com/sh/4qztwin2zkehmz0/AAB71w2o-vxKBGNRi709Cx-6a?dl=0). 
+[link](https://www.dropbox.com/sh/6og83rydevqsr3y/AACiSBDPuueEKx8eaV8Rzo3_a?dl=0). 
 
 Create a weights folder inside the TRAC folder.
 
