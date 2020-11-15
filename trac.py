@@ -79,7 +79,7 @@ def model_run(target_fasta):
     print ("Running 10 models and building a soft majority voting classifier to get predictions")
     for index in range(0, 10):
         print ("Running model %d" % (index+1))
-        learn.load('learn_model_for_loop_fold_%d' % (index + 1))
+        learn.load('learn_model_cd_hit_0_7_for_loop_fold_%d_label_smoothing_all_freeze.pth' % (index + 1))
         val_preds = learn.get_preds(DatasetType.Valid)
         total = total + val_preds[0]
         
